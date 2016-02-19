@@ -9,6 +9,7 @@ console.log('sodium.js loaded')
     h += '<hr>'
     h += '<span id="sodiumMsg"></span>'
     h += '<h4 style="color:navy" id="sodiumConsent">Research Consent Form: <button id="sodiumConsentStart" class="btn btn-primary">Start</button><h4>'
+    h += '<h4 style="color:navy" id="sodiumMeteor">Research Consent Form: <button id="sodiumMeteorStart" class="btn btn-success">Meteor</button><h4>'
     h += '<h4 style="color:navy">...<h4>'
     
     sbmApps.render(h)
@@ -22,6 +23,9 @@ console.log('sodium.js loaded')
     }
     sodiumConsentStart.onclick=function(){
         msg(' Consent Form under development by Joe Balsamo ...','red')
+    }
+    sodiumMeteorStart.onclick=function(){
+        document.location.href="https://studyapp.meteor.com/"
     }
 
 
