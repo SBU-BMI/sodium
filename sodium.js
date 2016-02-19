@@ -2,7 +2,7 @@ console.log('sodium.js loaded')
 
 // just an idea, ask me more about sbmApps.render(h)
 
-//false||(function(){ // this little trick will have all variables stay local
+false||(function(){ // this little trick will have all variables stay local
     var h = ''
     h += '<h3 style="color:maroon">Clinical trial</h3>'
     h += '<p style="color:maroon">Dieatery Sodium Intake and Outcomes in Heart Failure</p>'
@@ -26,4 +26,4 @@ console.log('sodium.js loaded')
 
 
 
-//})()
+})()
